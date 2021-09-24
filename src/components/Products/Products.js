@@ -6,7 +6,7 @@ import Rating from 'react-rating';
 
 const Products = (props) => {
     const product = props.product;
-    const { name, stock, seller, star, img, price } = product
+    const { name, stock, seller, star, img, price } = product;
     return (
         <div className="productsInfo">
             <div>
@@ -20,8 +20,7 @@ const Products = (props) => {
                         <p className="card-text">by: {seller}</p>
                         <h4 className="card-text">${price}</h4>
                         <p className="card-text">only {stock} left in stock - order soon</p>
-                        <Rating initialRating={star} readonly emptySymbol="far fa-star"
-                            fullSymbol="fas fa-star"></Rating>
+                        <Rating initialRating={star} readonly  emptySymbol="far fa-star" fullSymbol="fas fa-star"></Rating>
                         <br />
                         <button onClick={() => props.productHandler(product)} type="button" className="btn btn-secondary"><FontAwesomeIcon icon={faShoppingCart} /> add to cart</button>
                     </div>
