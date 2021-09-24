@@ -1,0 +1,15 @@
+.productsInfo{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-right: 1px solid rgb(116, 123, 126);
+}
+.productsInfo img{
+    width: 270px;
+    border: 1px solid rgb(141, 148, 150);
+    border-radius: 5px;
+    padding:5px;
+}
+.info{
+    margin-left: 20px;
+}

@@ -1,0 +1,7 @@
+.order{
+    border-left: 2px solid gainsboro;
+    padding-left: 10px;
+    text-align: center;
+    margin-top:30px;
+    position: fixed;
+}

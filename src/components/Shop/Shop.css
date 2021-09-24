@@ -1,0 +1,10 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 10px;
+
+}
+.cart{
+    background-color: rgba(252, 252, 252, 0.664);
+    border-radius: 5px;
+}
